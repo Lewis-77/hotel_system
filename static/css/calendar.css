@@ -1,0 +1,235 @@
+.calendar,
+.select-room {
+    flex: 1;
+    height: 81px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 0;
+    transition: background-color 0.3s;
+    text-align: center;
+    line-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:auto;
+}
+
+.calendar:hover {
+    background-color: #e0e0e0;
+}
+
+.select-room .r-dropdown {
+    z-index: 1;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 3px solid black;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 340px;
+}
+
+.r-g {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.room-functions {
+    display: flex;
+    align-items: center;
+
+}
+
+.room-q-box,
+.adult-q-box,
+.child-q-box {
+    width: 20px;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.c-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.c-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.add-room-button {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.room-info {
+    margin-top: 10px;
+    border-top: 1px solid #cfcfcf;
+}
+
+.room-info .room-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.room-info .room-label .down-arrow {
+    margin-left: 180px;
+    font-size: 18px;
+}
+
+.room-info .room-dropdown {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+.room-info.active .room-dropdown {
+    display: block;
+}
+
+.room-info .room-dropdown .c-btns button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.count-label {
+    font-weight: bold;
+}
+
+.adult-count,
+.child-count {
+    display: flex;
+    align-items: center;
+}
+
+.c-btns {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.adult-logo,
+.child-logo {
+    margin-right: 10px;
+}
+
+
+.s-btn{
+    width: 180px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 65px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .sticky-container {
+        display: block;
+        width: 100%
+    }
+
+    .select-room{
+        width: 100%;
+    }
+
+    .roomSelectionDropdown{
+        width:100%;
+    }
+    .s-btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    
+}
+
+.a-d-container {
+    width: 300px;
+    display: column;
+    margin: 0 auto;
+    text-align: left;
+
+  }
+
+  .a-d-input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .a-d-input label {
+    font-weight: bold;
+  }
+
+  .a-text {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .a-date{
+    width: 100%;
+  }
+
+select#roomSelectionDropdown {
+    width: 100%;
+    height: 81px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+/* Style the search box when hovered */
+select#roomSelectionDropdown:hover {
+    background-color: gray;
+}
+
+
+/* Style the dropdown options */
+select#roomSelectionDropdown option {
+    background: white;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    margin-top: 10px;
+}
+
+select#roomSelectionDropdown option:hover {
+    background: #767676;
+    color: white;
+}
+
+

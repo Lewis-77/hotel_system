@@ -1,0 +1,97 @@
+/*......................Recommendations Rooms.............................*/
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.room-info {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #eee;
+    border-radius: 0 0 5px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.room-info h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 0 -2px;
+    color: #333;
+    font-weight: bold;
+}
+
+.room-info p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #555;
+    margin: 0 0 12px;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #9A8174;
+}
+
+.per-night {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #9A8174;
+}
+
+
+.checkout-btn {
+    float: right;
+    border: 1px solid #202020;
+    background-color: white;
+    color: #333;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.checkout-btn:hover {
+    background-color: #9A8174;
+    color: white;
+}
+
+
+.checkout-btn:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+
+
+@media (max-width: 768px) {
+
+    .checkout-btn {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  label {
+    width: 200px;
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

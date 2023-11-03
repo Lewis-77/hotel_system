@@ -1,0 +1,30 @@
+body {
+    font-family: 'Belleza', sans-serif;
+    background-color: #202020;
+}
+
+/*..........Faint line......*/
+.faint-line {
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*--------------Bold Line-------------------*/
+.bold-line{
+    border-top: 3px solid #202020;;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    margin-right: 80%;
+}
+
+/*--------------Medium Line -------------*/
+.medium-line{
+    border-top: 1px solid #202020;;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    margin-right: 30%;
+}

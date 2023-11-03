@@ -1,0 +1,122 @@
+/* nav
+{
+    font-family: 'Belleza', 'sans-serif';
+    border-bottom: 1px solid #9A8174;
+} */
+.profile-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #9A8174;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sidebar
+{
+    margin-top: 2%;
+    border-right: 1px solid #9A8174;
+}
+#content
+{
+    margin-top: 2%;
+}
+.btn-brown
+{
+    outline: 1px solid #9A8174;
+    color: #9A8174;
+    font-size: 19px;
+}
+.btn-side
+{
+    background-color: #9A8174;
+    color: #fff;
+}
+
+/* Table view */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* padding: 8px;
+    text-align: center; */
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#dashboard-t2
+{
+    margin-top: 3%;
+}
+#dashboard-t1
+{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+h1
+{
+    color: #9A8174;
+}
+.btn-edit
+{
+    outline: 1px solid #9A8174;
+    color: #9A8174;
+}
+/* a
+{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #9A8174; 
+  } */
+#add_button
+{
+    margin-top: 4%;
+}
+.add_btn
+{
+    color: #9A8174;
+    outline: #9A8174;
+}
+#add_room_form
+{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+ /* Style for the button */
+ .hover-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.hover-dropdown:hover .hover-dropdown-content {
+    display: block;
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #007BFF;
+    color:#9A8174;
+}

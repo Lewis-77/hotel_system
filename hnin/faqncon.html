@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQs and Contact Us Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="mainfaq">
+        <h1>Frequently Asked Questions</h1>
+        <div class="qna">
+            <button class="question">What is an online hotel reservation system?
+            <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>It is a digital platform that allows users to book and manage hotel accommodations through the internet.</p>
+            </div>
+        </div>
+
+        <div class="qna">
+            <button class="question">Can I cancel my reservation?
+            <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Yes, You can cancel your reservation on time before the date that you booked.</p>
+            </div>
+        </div>
+
+        <div class="qna">
+            <button class="question">What should I do if I have issues related with hotel?
+            <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Contact the hotel or the booking platform's customer support for assistance.</p>
+            </div>
+        </div>
+
+        <div class="qna">
+            <button class="question">Does it cancel automatically if I don't come on date?
+            <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Yes, it will cancel automatically.</p>
+            </div>
+        </div>
+
+        <div class="qna">
+            <button class="question">What time is the check-out time?
+            <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>The check-out time is 12pm.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="head">
+        <h1 class="titlec">Contact Us</h1>
+    </div>
+    <div class="maincon">
+      <div class="conen">
+        <h2 class="titled">Contact</h2>
+        <p class="gmailc">hotelcontact@gmail.com</p>
+        <h3 class="titlef">Based in</h3>
+        <p class="locationi">Yangon, Myanmar</p>
+
+        <div class="social-iconsh">
+          <a href="#" target="_blank" class="ifacebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank" class="iinstagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" class="itwitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="coned">
+        <input class="textboxc" type="text" placeholder="Enter Your Name" />
+        <textarea name="textboxu" class="textboxu" cols="30" rows="10" placeholder="Enter Your message"></textarea>
+        <div><button class="buttonu">Contact Us</button></div>
+      </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("question");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+    
+                if (panel.style.display === "block" || panel.style.display === "") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    
+    
+  </body>
+</html>

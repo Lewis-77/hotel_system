@@ -1,0 +1,10 @@
+.cancel-btn{
+    border-radius: 50px; 
+    background-color: #3B3B3B;
+    color: aliceblue;
+}
+
+.cancel-btn:hover {
+    background-color: gray;
+
+}
