@@ -1,4 +1,5 @@
 # Hotel Reservation System
+The code is on master branch
 
 This project is a **front-end implementation** of a hotel reservation system, designed to simplify the booking process for users. The front-end is built using **HTML, CSS, and JavaScript**, while the back-end (developed by my teammates) uses a MySQL database.
 
